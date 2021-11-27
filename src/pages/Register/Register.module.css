@@ -1,0 +1,56 @@
+.title {
+  color: green;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.form {
+  border: 2px solid green;
+  background-color: rgb(169, 182, 169);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 500px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  color: green;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 17px;
+}
+
+.text {
+  position: absolute;
+  top: -20px;
+  font-weight: 700;
+}
+.span {
+  font-size: 20px;
+}
+.button {
+  background-color: green;
+  border: none;
+  border-radius: 4px;
+  min-width: 98px;
+  min-height: 30px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: yellowgreen;
+  color: #ffffff;
+}
+
+.input {
+  min-height: 30px;
+  min-width: 300px;
+}

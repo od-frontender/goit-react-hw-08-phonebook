@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  align-items: center;
+}
+.user {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.name {
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  margin-right: 20px;
+}
+.button {
+  background-color: yellow;
+  border: none;
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 17px;
+  font-weight: 700;
+}
+.button:hover {
+  background-color: yellowgreen;
+  color: #ffffff;
+}

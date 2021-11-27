@@ -1,0 +1,39 @@
+@import "modern-normalize/modern-normalize.css";
+
+body {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.active {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px;
+  font-weight: 500;
+  font-size: 18px;
+  color: green;
+}
